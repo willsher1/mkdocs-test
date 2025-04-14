@@ -1,1 +1,5 @@
-site_name: My Docs
+site_name: Mkdocs-Test
+site_url: willsher1.github.io/mkdocs-test/
+repo_url: https://github.com/willsher1/mkdocs-test
+theme:
+  name: material
