@@ -3,3 +3,9 @@ site_url: https://willsher1.github.io/mkdocs-test/
 repo_url: https://github.com/willsher1/mkdocs-test
 theme:
   name: material
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
